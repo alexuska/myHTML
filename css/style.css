@@ -4,7 +4,7 @@
 }
 body {
     font-family: Helvetica, Arial, sans-serif;
-    background-image: url('/photos/fonjel.jpg');
+    background-image: url('/photos/fonjel.jpg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -207,6 +207,4 @@ li {
             font-size: 20px;
             cursor: pointer;
             text-decoration: none;
-            margin-left: 47.5%;
-
 }
