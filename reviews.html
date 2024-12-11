@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Услуги</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="/photos/icon.png" type="image/png">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" rel="stylesheet"> 
+<!-- Подключение JavaScript-файлов Bootstrap и jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjq6IbRdtsd/7cRGqc/XqJsDHbtzX5Lp1WyE+" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
@@ -20,72 +25,28 @@
         <a href="index.html">Главная</a> |
             <a href="about.html">О нас</a> |
             <a href="reviews.html" class="active">Услуги</a> |
-            <a href="contact.html">Контакты</a> |
-            <a href="passport.html">Паспорт</a> |
-            <a href="task.html"> Задача</a>
+            <a href="contact.html">Контакты</a> 
     </nav>
 <br><br><br>
-    <table style="margin-left: 492px;">
-        <thead>
-            <tr>
-                <th>Услуга</th>
-                <th>Описание</th>
-                <th>Стоимость</th>
-                <th>Контакт</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Защита в уголовных делах</td>
-                <td>Помощь в делах о преступлениях</td>
-                <td>От 1000$</td>
-                <td>(505) 503-4455</td>
-            </tr>
-            <tr>
-                <td>Консультации по гражданским делам</td>
-                <td>Анализ документов и правовая помощь</td>
-                <td>200$ за час</td>
-                <td>(505) 503-4455</td>
-            </tr>
-            <tr>
-                <td>Судебные разбирательства</td>
-                <td>Представление интересов в суде</td>
-                <td>От 1500$</td>
-                <td>(505) 503-4455</td>
-            </tr>
-            <tr>
-                <td>Трудовое право</td>
-                <td>Составление контрактов</td>
-                <td>От 500$</td>
-                <td>(505) 503-4455</td>
-            </tr>
-            <tr>
-                <td>Семейное право</td>
-                <td>Развод, опека и алименты</td>
-                <td>От 800$</td>
-                <td>(505) 503-4455</td>
-            </tr>
-            
-        </tbody>
-    </table>
+    
+
+    <div class="container">
+        <div class="forma">
+            <h2 class="card-title text-center">Выберите услугу </h2>
+            <br>
+            <form action="https://www.google.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                <input type="hidden" name="q" value="search">
+                <ul class="d-flex flex-row justify-content-around flex-wrap bg-light" id="node_for_insert"></ul>
+                <input class="btn btn-primary" type="Submit" value="Заказать">
+            </form>
+        </div>
+    </div>
+    <script src="shop.js"></script>
+    
     
 
 
 
-<footer class="footer">
-    <div class="footer-content"></div>
-    <ul>
-        <p> звоните по номеру: (505) 503-4455 </p>
-        <p>email: better_call@saul.com</p>
-        <p> telegram: <a href="https://t.me/alexusak" target="_blank">@saulgoodman</a></p>
-            <br>
-        <p><span class="opacity">&copy 2024 Better Call Saul!  Все права защищены.</span></p>
-    </ul>
-    </div>
 
-
-
-
-    </footer>
 </body>
 </html>
